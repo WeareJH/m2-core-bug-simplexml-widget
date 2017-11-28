@@ -1,0 +1,14 @@
+{
+    "name": "wearejh/m2-core-bug-simplexml-widget",
+    "description": "JH M2 Core Bug Fix - Simple XML Load String MAGETWO-70469",
+    "type": "magento2-module",
+    "require": {
+        "php": "~7.0.0"
+    },
+    "autoload": {
+        "files": [ "registration.php" ],
+        "psr-4": {
+            "Jh\\CoreBugSimpleXmlWidget\\": ""
+        }
+    }
+}
